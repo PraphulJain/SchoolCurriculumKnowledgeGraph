@@ -10,7 +10,7 @@ model = models()
 
 # ___________________________________
 
-folder_path = 'CBSE_Science_VI/'
+folder_path = 'Path here'
 # ___________________________________
 
 #store file names in list by using os.listdir on target folder
@@ -67,7 +67,7 @@ for i in range(len(k)):
 
 #Linking knowledge graphs by hyperlinks
 stime = time.time()
-folder_path = "CBSE_Science_VI/kg_files/"
+folder_path = folder_path + "/kg_files/"
 k = os.listdir(folder_path)
 k.sort()
 dlinks = [] #location of html files in drive folder.
